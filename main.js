@@ -25,7 +25,7 @@ for (let i=1; i<= cantidad; i++){
     while (planSeleccionado != 1 && planSeleccionado != 2 && planSeleccionado != 3){
         planSeleccionado= prompt("Plan no valido. Por favor ingrese nuevamente el plan al que desea asociarse:");
     } 
-    let precioPlanMes = 0;
+    let precioPlanMes;
     if (planSeleccionado == 1){
         precioPlanMes = 10000;
         console.log("Accediste al plan mensual")
